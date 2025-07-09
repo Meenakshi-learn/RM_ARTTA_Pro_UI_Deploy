@@ -15,7 +15,8 @@ from wordcloud import WordCloud
 nltk.download('stopwords')
 nltk.download('wordnet')
 
-st.set_page_config(page_title="ARTTA | Research Trend Analyzer", page_icon="📚", layout="wide")
+st.markdown("<h1 style='text-align: center; color: #2C3E50;'>🚀 Research Analyzer Portal</h1>", unsafe_allow_html=True)
+
 
 # Sidebar
 with st.sidebar:
@@ -24,8 +25,8 @@ with st.sidebar:
     st.markdown("""
     **Academic Research Trend Topic Analyzer**  
     👩‍💻 Developed by:  
-    - R Ankitha  
-    - Meenakshi  
+    - R Ankitha  ENG24CSE0002
+    - Meenakshi  ENG24CSE0013
 
     🧑‍🏫 Supervised by:  
     - Dr. Prabhakar M  
