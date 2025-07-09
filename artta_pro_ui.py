@@ -20,7 +20,7 @@ st.markdown("<h1 style='text-align: center; color: #2C3E50;'>🚀 Research Analy
 
 # Sidebar
 with st.sidebar:
-    st.image("RESEARCH.JPG", width=150)
+    st.image("RESEARCH.jpg", width=150)
     st.title("📌 About ARTTA")
     st.markdown("""
     **Academic Research Trend Topic Analyzer**  
