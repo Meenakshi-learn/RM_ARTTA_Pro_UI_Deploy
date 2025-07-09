@@ -17,7 +17,6 @@ nltk.download('wordnet')
 
 st.markdown("<h1 style='text-align: center; color: #2C3E50;'>🚀 Research Analyzer Portal</h1>", unsafe_allow_html=True)
 
-
 # Sidebar
 with st.sidebar:
     st.image("RESEARCH.jpg", width=150)
@@ -39,7 +38,12 @@ with st.sidebar:
     """)
 
 # Hero header
-st.markdown("<h1 style='text-align: center; color: #2C3E50;'>📚 ARTTA v2</h1>", unsafe_allow_html=True)
+st.markdown("""
+    <div style="background-color:#004080;padding:15px;border-radius:10px">
+    <h1 style="color:white;text-align:center;">📚 ARTTA v2: Academic Research Trend Analyzer</h1>
+    </div>
+""", unsafe_allow_html=True)
+
 st.markdown("<h4 style='text-align: center; color: #34495E;'>Academic Research Trend Topic Analyzer</h4>", unsafe_allow_html=True)
 st.markdown("<hr>", unsafe_allow_html=True)
 st.write("ARTTA helps students and researchers explore trending academic topics by analyzing real-time abstracts from arXiv. Just type a topic and discover key terms, keyword importance, and topic clusters.")
