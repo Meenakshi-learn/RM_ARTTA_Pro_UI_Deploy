@@ -24,8 +24,8 @@ with st.sidebar:
     st.markdown("""
     **Academic Research Trend Topic Analyzer**  
     👩‍💻 Developed by:  
-    - R Ankitha  ENG24CSE0002
     - Meenakshi  ENG24CSE0013
+    - R Ankitha  ENG24CSE0002
 
     🧑‍🏫 Supervised by:  
     - Dr. Prabhakar M  
