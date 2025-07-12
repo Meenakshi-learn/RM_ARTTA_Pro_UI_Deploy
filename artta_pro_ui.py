@@ -129,4 +129,4 @@ if query and st.button("🚀 Analyze Now"):
 
 # Footer
 st.markdown("<hr>", unsafe_allow_html=True)
-st.markdown("<p style='text-align: center;'>© 2025 R Ankitha & Meenakshi | DSU | Research Methodology Project</p>", unsafe_allow_html=True)
+st.markdown("<p style='text-align: center;'>© 2025 Meenakshi& R Ankitha  | DSU | Research Methodology Project</p>", unsafe_allow_html=True)
